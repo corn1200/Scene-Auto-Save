@@ -27,5 +27,6 @@ public class SceneAutoSaveEditor : EditorWindow
     private void OnGUI()
     {
         EditorGUILayout.LabelField("Scene Auto Save", titleStyle);
+        Editor_SelectPlayScene.OnEditorGUI(titleStyle);
     }
 }
