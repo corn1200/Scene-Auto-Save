@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class Editor_SelectPlayScene
 {
-    private static readonly string prefs = "SceneAutoSave_SELECTPLAYSCENE_";
+    private static readonly string prefs = "CUSTOMUTILITY_SELECTPLAYSCENE_";
     private static readonly string[] playSceneTable = { "0번 씬부터 재생", "현재 씬부터 재생" };
 
     private static int selectedIndex = 0;
